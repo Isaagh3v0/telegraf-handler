@@ -1,10 +1,9 @@
-import { session, Telegraf } from "telegraf";
+import { Telegraf } from "telegraf";
 import { ConfigService } from "./config/config.service";
 import { IConfigService } from "./config/config.interface";
 import {IBotCoxtext} from "./context/context.interface";
 import {CommandClass} from "./commands/command.class";
 import {StartCommand} from "./commands/start.command";
-import {start} from "repl";
 
 class Bot {
     bot: Telegraf<IBotCoxtext>
