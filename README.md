@@ -8,21 +8,39 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/build-v1.22.19-brightgreen?style=for-the-badge&logo=yarn&label=%20&labelColor=black&color=blue">
 </p>
 
+___
 ## Authors
 
 - ENIGMA ([@nahmnenickname](https://t.me/nahmnenickname))
 
-____
+___
+## v1.0.1
+```diff
++ dev command
++ optimize
+```
+___
+## – Start With Nodemon
+### 1. Install dependencies
+```bash
+yarn add
+```
+
+### 2. Start With Nodemon
+```bash
+yarn dev
+```
+## – Compile And Start
 ### 1. Install dependencies
 ```bash
 yarn add
 ```
 
 ### 2. Renaming config file
-> Rename config file `.env.example` to `.env`.
+`Rename config file .env.example to .env.`
 
 ### 3. Adding token
-> Replace `TOKEN="THERETOKEN"` field in the `.env` configuration file.
+`Replace TOKEN="THERETOKEN" field in the .env configuration file.`
 
 ### 4. Building project
 ```bash
